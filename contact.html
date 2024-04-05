@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style-menu.css">
     <link rel="stylesheet" href="styles-contact.css">
     <title>Portfolio</title>
@@ -12,10 +12,7 @@
 
 <body>
 <header>
-    <a class="logo" target="_blank">
-        <img src="images/logo.png" alt="">
-    </a>
-
+    
     <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
     <label for="menu-icon"></label>
 
@@ -25,7 +22,7 @@
             <li><a href="about.html">A propos de moi</a></li>
             <li><a href="experience.html">Expérience</a></li>
             <li><a href="projets.html">Projets</a></li>
-            <li><a href="micro.html">Stage 1</a></li>
+            <li><a href="ordi.html">Stage 1</a></li>
             <li><a href="chateau9.html">Stage 2</a></li>
             <li><a href="vielle.html">Veille</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -36,47 +33,102 @@
 <section>
     <h1>CONTACT</h1>
 </section>
-
-<section class="contact-section">
-    <div class="contact-container">
-        <div class="contact-column contact-info">
-            <h2>Me contacter</h2>
-            <ul>
-                <li>
-                    Email :
-                    fatima.abouda2003@gmail.com
-                </li>
-                <li>
-                    Téléphone :
-                    +336 00 00 00 00
-                </li>
-                <li class="social-icons">
-                        <img src="images/link.png" href="https://www.linkedin.com/in/fatima-abouda-b7797a28b/" alt="LinkedIn">
-
-                       <img href="https://github.com/FatimaABOUDA" src="images/github.png" alt="GitHub">
-
-                        <img src="images/codepen.jpg" href="https://codepen.io/fatima-ezzahrae-abouda" alt="CodePen">
-
-                </li>
-            </ul>
+<section class="contact section " id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2>Contactez-moi</h2>
+            </div>
         </div>
-        <div class="contact-column contact-form">
-            <h2>Envoyez-moi un message</h2>
-            <form action="contact.php" method="post">
-                <label for="name">Nom</label>
-                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        <h3 class="contact-title padd-15">Avais-vous des questions?</h3>
+        <h4 class="contact-sub-title padd-15">Je suis à votre disposition pour répondre à toutes vos questions</h4>
+        <div class="row">
+            <!-- ==== Contact info item Start ==== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Appelez-moi sur</h4>
+                <p><a href="tel:00 33 6 00 00 00 00 00">00 33 6 00 00 00 00 00</a></p>
+            </div>
+            <!-- ==== Contact info item End ==== -->
+            <!-- ==== Contact info item Start ==== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Envoyez-moi un email</h4>
+                <p><a href="mailto:fatima.abouda2003@gmail.com">fatima.abouda2003@gmail.com</a></p>
+            </div>
+            <!-- ==== Contact info item End ==== -->
+            <!-- ==== Contact info item Start ==== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Adresse</h4>
+                <p>France</p>
+            </div>
+            <!-- ==== Contact info item End ==== -->
+            <!-- ==== Contact info item Start ==== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-clock"></i></div>
+                <h4>Disponibilité</h4>
+                <p>24/7</p>
+            </div>
+            <!-- ==== Contact info item End ==== -->
+            <!-- ==== Contact info item Start ==== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-github"></i></div>
+                <h4>GitHub</h4>
+                <p><a href="https://github.com/FatimaABOUDA">Fatima ABOUDA</a></p>
+            </div>
+            <!-- ==== Contact info item End ==== -->
+            <!-- ==== Contact info item Start ==== -->
+            <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-linkedin"></i></div>
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/fatima-abouda-b7797a28b/">Fatima ABOUDA</a></p>
+            </div>
+            <!-- ==== Contact info item End ==== -->
+   
 
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="Votre e-mail" required>
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
 
-                <input type="submit" value="Envoyer">
-            </form>0
+
+        </div>
+        <h3 class="contact-title padd-15">Envoyez-moi un Email</h3>
+        <h4 class="contact-sub-title padd-15">je vous répondrai dans les plus brefs délais</h4>
+        <!-- ==== Contact Form ==== -->
+        <div class="row">
+            <div class="contact-form padd-15">
+                <div class="row">
+                    <div class="form-item col-6 padd-15">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nom">
+                        </div>
+                    </div>
+                    <div class="form-item col-6 padd-15">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-item col-12 padd-15">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Objet">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-item col-12 padd-15">
+                        <div class="form-group">
+                            <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                        <button type="submit" class="btn">Envoyer</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-</body>
-
-</html>
+<!-- ==== Contact Section End ==== -->

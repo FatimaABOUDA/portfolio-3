@@ -658,7 +658,7 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-heading {
-    flex: 0 0 auto;
+    flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 40px;
 }
@@ -668,14 +668,18 @@ h3.my-profession {
     font-weight: 500;
 }
 .portfolio .portfolio-item {
-    flex: auto;
-    /* Désactivez la flexibilité sur la largeur */
-    width: 33.33%;
-    /* Définissez une largeur de 33.33% */
+    display: flex;
+    /* Utilisez Flexbox pour aligner les éléments côte à côte */
+    flex: 0 0 33.33%;
+    /* Définissez une largeur de 33.33% pour chaque élément */
     margin-bottom: 30px;
+    box-sizing: border-box;
+    /* Incluez la bordure et le padding dans la largeur */
 }
 
 .portfolio .portfolio-item-inner {
+    flex: 1;
+    /* Faites en sorte que chaque élément occupe tout l'espace disponible */
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
@@ -683,8 +687,9 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
-    width: auto;
-    height: 200%;
+    width: 100%;
+    /* Assurez-vous que l'image occupe tout l'espace disponible */
+    height: auto;
     display: block;
 }
 

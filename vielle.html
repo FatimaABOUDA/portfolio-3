@@ -6,77 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-menu.css">
     <link rel="stylesheet" href="style-veille.css">
-
+    <link rel="stylesheet" href="style1.css">
+    <title>Portfolio</title>
     <style>
-        .hero-veille {
-            background-image: url('images/vielle.jpg');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            text-align: center;
-            padding: 50px;
-            opacity: 0.9;
-
-        }
-
-        .veille {
-            padding: 20px;
-        }
-
         .tool-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
-        .tool-box {
-            width: 45%;
-            margin-bottom: 20px;
-        }
+}
 
-        .tool {
-            text-align: center;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+.tool-box {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
 
-        .tool img {
-            width: 100px;
-            height: auto;
-            margin-bottom: 10px;
-        }
-
-        .tool a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-
-        .tool a:hover {
-            color: #007bff;
-        }
-
-        @media (max-width: 768px) {
-            .tool-box {
-                width: 100%;
-            }
-        }
-        section{
-            margin-top: 100px;
-
-        }
+.tool-box img{
+    width:20%;
+    margin: 0 auto;
+    height: 20%;
+    position: center;
+}
 
     </style>
-
-    <title>Portfolio</title>
 </head>
 <body>
-    <a class="logo" target="_blank">
-        <img src="images/logo.png" alt="">
-    </a>
+
 
     <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
     <label for="menu-icon"></label>
@@ -95,9 +52,15 @@
         </ul>
     </nav>
 
-    <section class="hero-veille">
+    <section class="veille section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+                    <h1>Fatima ABOUDA</h1>
+                    <h2>La Veille Technologique</h2>
+                </div>
+            </div>
     <h1>La Veille Technologique</h1>
-    </section>
     <section class="veille">
     <h2>Qu'est-ce que la Veille Technologique ?</h2>
     <p>La veille technologique est le processus de surveillance des tendances technologiques pour identifier les
@@ -121,7 +84,6 @@
     </ul>
 
     <h2>Les Domaines Clés de la Veille Technologique pour les Étudiants :</h2>
-    <ol>
         <li><strong>Langages de Programmation :</strong> Surveiller les évolutions des langages de programmation (comme
             Python, JavaScript, Java) pour s'assurer de maîtriser ceux qui sont les plus pertinents.</li>
         <li><strong>Développement Web :</strong> Suivre les dernières tendances en matière de frameworks, de responsive
@@ -132,7 +94,6 @@
             développer des applications robustes.</li>
         <li><strong>Open Source et Communautés en Ligne :</strong> Participer à des projets open source et interagir
             avec des communautés en ligne pour apprendre et partager des connaissances.</li>
-    </ol>
 
     <h2>Outils pour la Veille Technologique :</h2>
     <p>Il existe de nombreux outils et ressources pour suivre les dernières tendances en matière de développement
