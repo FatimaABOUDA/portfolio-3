@@ -658,7 +658,7 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-heading {
-    flex: 0 0 100%;
+    flex: 0 0 auto;
     max-width: 100%;
     margin-bottom: 40px;
 }
@@ -667,10 +667,11 @@ h3.my-profession {
     color: var(--text-black-900);
     font-weight: 500;
 }
-
 .portfolio .portfolio-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: auto;
+    /* Désactivez la flexibilité sur la largeur */
+    width: 33.33%;
+    /* Définissez une largeur de 33.33% */
     margin-bottom: 30px;
 }
 
@@ -682,8 +683,8 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
-    width: 100%;
-    height: 220px;
+    width: auto;
+    height: 200%;
     display: block;
 }
 
