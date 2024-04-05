@@ -1,0 +1,536 @@
+body{
+    background-color: #F8F7F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 50px 20px;
+    box-sizing: border-box;
+
+}
+h1
+{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+
+}
+h2
+{
+
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+
+}
+h3
+{
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+
+}
+
+h4
+{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px 20px;
+    text-align: center;
+    background-color: #000000;
+    color: #000000;
+    border-radius: 20px;
+    margin: 1em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, .about-section, .tool, .tool img {
+    text-align: left; /* Rétablir l'alignement à gauche pour ces éléments spécifiques */
+    margin: auto; /* Ajout pour centrer ces éléments */
+    width: 90%; /* Ajustez la largeur selon vos besoins */
+    color: #000000;
+}
+
+.about-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5% 5% 5% 5%;
+}
+.section-about-5\/5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 1000px;
+    border: 2px solid #646464;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.left{
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    margin: 5% 5% 5% 5%;
+
+}
+.left img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /** centrer l'image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+
+
+    }
+
+.right {
+    flex: 1;
+    padding: 20px; /* Ajoutez une marge pour l'espace autour du texte */
+    text-align: left; /* Alignez le texte à gauche */
+    margin: 5% 5% 5% 5%;
+
+
+
+}
+
+.right p {
+    color: #000000; /* Couleur du texte sur l'image */
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    box-sizing: border-box;
+
+
+}
+/* Ajoutez ceci à votre fichier style.css ou entre les balises <style>...</style> dans l'en-tête de votre document HTML */
+
+#education {
+    background-color: #f5f5f5; /* Couleur de fond */
+    padding: 50px 0; /* Espace intérieur */
+}
+
+#wrapper {
+    max-width: 1200px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrer le contenu */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Couleur du texte */
+}
+
+#timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+li {
+    display: flex;
+    margin-bottom: 40px;
+    color: #212529;
+}
+
+.date {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #646464; /* Couleur de la date */
+    min-width: 80px; /* Largeur minimale de la date */
+    text-align: right;
+    margin-right: 20px;
+}
+
+.event {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff; /* Couleur de fond de l'événement */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333; /* Couleur du titre */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #000000; /* Couleur du texte */
+    margin: 0;
+}
+
+/* Ajoutez des ajustements supplémentaires selon vos préférences */
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    box-shadow: #000000 0 -1px 0 inset;
+    border: #000000 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #000000;
+    margin-left: 10px;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 10px;
+    border: #000000 2px solid;
+}
+.box img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 10px;
+    border: #000000 2px solid;
+
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.22);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+.tool-container {
+       display: flex;
+
+}
+
+.box-item {
+    border: 1px solid #ccc; /* Ajoute une bordure */
+    padding: 10px; /* Ajoute une marge interne */
+    margin: 5px 0; /* Ajoute une marge externe en haut et en bas */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+    background-color: #f0f0f0; /* Ajoute une couleur de fond */
+    display: inline-block; /* Permet aux boîtes de s'afficher en ligne */
+    width: 100%; /* Définit la largeur des boîtes */
+    box-sizing: border-box; /* Définit la boîte de la boîte */
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    box-sizing: border-box;
+    margin: 5%;
+    text-align: center;
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+
+}
+
+/* Ajoutez ceci à votre fichier style.css ou entre les balises <style>...</style> dans l'en-tête de votre document HTML */
+
+#hero {
+    position: relative;
+    height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+    background: url('images/home.jpg') center/cover no-repeat; /* Ajoutez votre propre image d'en-tête */
+    color: #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content {
+    background-color: rgba(250, 250, 250, 0.66); /* Fond semi-transparent noir pour améliorer la lisibilité du texte */
+    padding: 20px;
+}
+
+.hero-content h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+
+.hero-about{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    background-image: url("images/home1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero-about h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+
+.hero-about p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+
+.btn{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    box-sizing: border-box;
+    margin: 5%;
+    text-align: center;
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+    margin: auto;
+    display: block;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #646464;
+}
+
+/* Ajoutez ceci à votre fichier style.css ou entre les balises <style>...</style> dans l'en-tête de votre document HTML */
+
+@media (min-width: 768px) {
+    .hero-content h2 {
+        font-size: 6rem;
+    }
+
+    .hero-content p {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .hero-about h2 {
+        font-size: 6rem;
+    }
+
+    .hero-about p {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .box-item {
+        width: 50%;
+    }
+
+    .box-item:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    .box-item:nth-child(2n+1) {
+        margin-right: 0;
+    }
+
+    .box-item:nth-child(3n) {
+        margin-left: 0;
+    }
+
+    .box-item:nth-child(3n+1) {
+        margin-right: 0;
+    }
+
+    .box-item:nth-child(4n) {
+        margin-left: 0;
+    }
+
+    .box-item:nth-child(4n+1) {
+        margin-right: 0;
+    }
+
+    .box-item:nth-child(5n) {
+        margin-left: 0;
+    }
+
+    .box-item:nth-child(5n+1) {
+        margin-right: 0;
+    }
+
+    .projet {
+        width: 50%;
+    }
+
+    .projet:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    .projet:nth-child(2n+1) {
+        margin-right: 0;
+    }
+
+    .projet:nth-child(3n) {
+        margin-left: 0;
+    }
+
+
+
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    #education {
+        padding: 30px 0;
+
+    }
+
+    #timeline {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .event {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .date {
+        text-align: left;
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .tool-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tool-box {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media (min-width: 768px) {
+    /* Existing styles for larger screens */
+
+    .section-about-5\/5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+        max-width: 1000px;
+        border: 2px solid #646464;
+        border-radius: 25px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .left {
+        flex: 1;
+        padding: 5px;
+        text-align: left;
+        margin: 5% 5% 5% 5%;
+    }
+
+    .left img {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+        margin: 5% 5% 5% 5%;
+    }
+
+}
+
+/* New styles for smaller screens (mobile) */
+@media (max-width: 767px) {
+    .section-about-5\/5 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        margin: 0;
+    }
+}

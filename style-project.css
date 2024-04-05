@@ -1,0 +1,158 @@
+/* Ajoutez ceci à votre fichier style.css ou entre les balises <style>...</style> dans l'en-tête de votre document HTML */
+.hero-project {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    background-image: url("images/project.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+.project-box {
+    border: 1px solid #ddd; /* Bordure de la boîte */
+    border-radius: 8px; /* Coins arrondis */
+    overflow: hidden;
+    margin: 20px 0;
+    width: 100%;
+
+}
+
+.project-box img {
+    width: 100%; /* La largeur de l'image prend toute la largeur de la boîte */
+    height: auto; /* Ajuste la hauteur de l'image en conséquence */
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333; /* Couleur du titre */
+}
+
+.project-description {
+    font-size: 1.2em;
+    color: #555; /* Couleur du texte de la description */
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #000000; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #646464; /* Couleur de fond du bouton au survol */
+
+}
+
+/* Ajoutez des ajustements supplémentaires selon vos préférences */
+
+
+.projet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.projet h1{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    background-image: url("images/project.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projet .project-box{
+    border: 1px solid #ddd; /* Bordure de la boîte */
+    border-radius: 8px; /* Coins arrondis */
+    overflow: hidden;
+    margin: 20px 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.projet .project-box img{
+    width: 100%; /* La largeur de l'image prend toute la largeur de la boîte */
+    height: auto; /* Ajuste la hauteur de l'image en conséquence */
+}
+
+.projet .project-info{
+    padding: 20px;
+}
+
+.projet .project-title{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333; /* Couleur du titre */
+}
+
+.projet .project-description{
+    font-size: 1.2em;
+    color: #555; /* Couleur du texte de la description */
+}
+
+.projet .project-link{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #000000; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.projet .project-link:hover{
+    background-color: #646464; /* Couleur de fond du bouton au survol */
+
+}
+
+/* Ajoutez des ajustements supplémentaires selon vos préférences */
+
+img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

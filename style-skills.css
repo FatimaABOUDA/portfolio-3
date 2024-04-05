@@ -1,0 +1,67 @@
+/* Styles pour la section des compétences */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 30px auto;
+
+}
+
+.skills-column {
+    flex: 1;
+    margin-right: 20px;
+
+}
+
+#language-skills,
+#software-skills {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+
+}
+
+#language-skills li,
+#software-skills li {
+    margin-bottom: 15px;
+}
+
+.bar-container {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.bar {
+    display: block;
+    height: 100%;
+    background-color: #000000;
+    width: 0;
+    transition: width 0.5s ease;
+
+
+}
+
+.pct {
+    color: #fafafa;
+    display: block;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 5px;
+
+}
+
+/* Ajoutez plus de styles au besoin */
