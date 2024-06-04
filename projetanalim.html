@@ -1,0 +1,133 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projet Analim</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+
+
+        .text {
+            padding-right: 20px;
+            width: 100%;
+            /* Ensure full width for both text and video */
+        }
+
+.media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pdf-container, .video {
+    flex-basis: 48%; /* Pour assurer qu'ils occupent près de la moitié de l'espace */
+}
+
+.pdf-container {
+    margin-right: 10px; /* Pour ajouter un espace entre le PDF et la vidéo */
+}
+@media screen and (max-width: 900px) {
+    .media-container {
+        flex-direction: column; /* Change la direction en colonne */
+    }
+
+    .pdf-container, .video {
+        flex-basis: 100%; /* Assurez-vous que chaque élément occupe toute la largeur */
+        margin-right: 0; /* Supprimez la marge entre les éléments */
+        margin-bottom: 20px; /* Ajoutez une marge en bas pour l'espace entre les éléments */
+    }
+}
+
+
+        video {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            
+        }
+
+        .box {
+            max-width: 70%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #000;
+            margin: 20px 0;
+            /* Adjust margin as needed */
+            width: 100%;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <section id="1" class="class-section">
+        <div class="box container">
+            <div class="text">
+                <h1> de Développement d'Application pour la Gestion du Congrès [ANALIM] par la Maison des Ligues de Lorraine
+                </h1>
+                <h2>
+                Contexte :</h2>
+                <p>La Maison des Ligues de Lorraine (M2L), établissement du Conseil Régional, fournit des services et des salles aux ligues
+                sportives régionales et autres structures. Elle organise le Congrès National des Maisons des Ligues, [ANALIM], à
+                Limoges, en collaboration avec d'autres régions.</p>
+                
+                <h2>Objectifs du Projet :</h2>
+                <p>L'objectif principal est de développer une application web pour faciliter l'organisation du congrès [ANALIM]. Cette
+                application doit permettre une gestion flexible des inscriptions, des sessions, des activités culturelles, de la
+                facturation, etc.</p>
+                
+                <h2>Organisation du Congrès [ANALIM] :</h2>
+               
+                <p>Les inscriptions génèrent un dossier pour chaque congressiste.
+                </p>
+                <p>Les hôtels proposent des tarifs par participant.
+                </p>
+                <p>Chaque session du congrès a un coût spécifique.
+                </p>
+                <p>Des badges et dossiers sont remis aux participants par un service d'accueil.
+                </p>
+                <p>Des activités culturelles sont proposées.
+                </p>
+                <p>Les participants peuvent s'inscrire à ces activités jusqu'à 30 minutes avant.
+                </p>
+                <p>Les factures doivent être envoyées ou remises aux participants.
+                </p>
+                <p>Les règlements par courrier sont enregistrés, et un suivi des factures non réglées est nécessaire.
+                </p>
+                <h2>Technologies Utilisées :</h2>
+                
+                <p>PHP : Langage de programmation côté serveur.</p>
+                <p>MySQL : Système de gestion de base de données pour le stockage des données.</p>
+                <p>HTML/CSS : Langages pour la structure et le style des pages web.</p>
+                <p>JMerise : Outil de modélisation de bases de données.</p>
+                <p>PHPMyAdmin : Outil de gestion de bases de données MySQL via une interface web.</p>
+
+                <hr>
+                <div class="media-container">
+                    <div class="pdf-container">
+                        <embed src="resources/doc technique_analim.pdf" type="application/pdf" width="100%" height="600px" />
+                    </div>
+                    <div class="video">
+                        <video controls>
+                            <source src="images/portfolio/analim/analim ‐ Réalisée avec Clipchamp.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+    </section>

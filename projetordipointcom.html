@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projet Gestion de Séminaire</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+
+
+        .text {
+            padding-right: 20px;
+            width: 100%;
+            /* Ensure full width for both text and video */
+        }
+
+        .image {
+            width: 50%;
+            /* Ensure full width for both text and video */
+            /*mettre au centre de la page*/
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        video {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            /*cetre la video*/
+            margin-left: 50%;
+        }
+
+        .box {
+            max-width: 70%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .class-section {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .code {
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        .method {
+            font-style: italic;
+            color: #28A745;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #6C757D;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #000;
+            margin: 20px 0;
+            /* Adjust margin as needed */
+            width: 100%;
+        }
+        a {
+            text-decoration: none;
+        }
+        .btn {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: black;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn2{
+    font-size: 10px;
+        padding: 5px 5px;
+        color: white;
+        border-radius: 40px;
+        display: inline-block;
+        white-space: nowrap;
+        border: none;
+        background: black;
+        transition: all 0.3s ease;
+}
+
+.btn2:hover {
+    transform: scale(1.05);
+}
+
+.pdf-container {
+            width: 100%;
+            max-width: 800px; /* Ajout d'une largeur maximale pour le conteneur PDF */
+            /*center le PDF*/
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="1" class="class-section">
+        <div class="box container">
+            <div class="text">
+                <h1>Projet de Gestion d'Interventions</h1>
+                <h2>Introduction</h2>
+                <p>Le projet de gestion d'interventions est une application web permettant de gérer les informations
+                    relatives aux interventions réalisées pour les clients. L'application est développée en utilisant le
+                    langage PHP pour la logique côté serveur et MySQL pour le stockage des données. L'objectif principal de
+                    cette application est de fournir un outil centralisé pour enregistrer, suivre et gérer les interventions
+                    effectuées pour les clients.</p>
+                <h2>Configuration</h2>
+                <p>Pour configurer l'environnement de développement et utiliser l'application, les éléments suivants sont
+                    nécessaires :</p>
+                <ul>
+                    <li>Serveur Distant : Un serveur distant est nécessaire pour héberger l'application web et la base de
+                        données. Il peut s'agir d'un serveur dédié, d'un serveur virtuel ou d'un service d'hébergement.</li>
+                    <li>WinSCP : WinSCP est un logiciel de transfert de fichiers sécurisé (SFTP, SCP et FTP) pour Windows.
+                        Il est utilisé pour transférer les fichiers de l'application entre votre machine locale et le
+                        serveur distant.</li>
+                </ul>
+                <h2>Les Étapes</h2>
+                <p>L'application se compose de plusieurs pages et fonctionnalités pour faciliter la gestion des
+                    interventions. Voici une brève description des principales étapes :</p>
+                <ul>
+                    <li>Page d'Accueil (index.php) : La page d'accueil est le point d'entrée de l'application. Elle redirige
+                        vers les différentes pages de recherche, d'ajout et de devis.</li>
+                    <li>Ajout d'Intervention : Cette fonctionnalité permet aux utilisateurs d'ajouter de nouvelles
+                        interventions en remplissant un formulaire. Le formulaire récupère les informations relatives à
+                        chaque intervention, telles que les informations sur le client, le type de service, le matériel,
+                        etc. Les données sur le matériel et les services sont récupérées depuis la base de données pour
+                        fournir une liste déroulante.</li>
+                </ul>
+                <h2>Objectifs</h2>
+                <p>Les objectifs principaux de l'application de gestion d'interventions sont les suivants :</p>
+                <ul>
+                    <li>Centraliser les Informations : Fournir un emplacement centralisé pour enregistrer toutes les
+                        informations relatives aux interventions clients.</li>
+                    <li>Faciliter le Suivi des Interventions : Permettre aux utilisateurs de suivre facilement les
+                        interventions effectuées, y compris les détails sur les clients, les types de service et le matériel
+                        utilisé.</li>
+                    <li>Optimiser les Processus : Simplifier les processus de gestion des interventions en automatisant
+                        certaines tâches et en fournissant des fonctionnalités conviviales pour les utilisateurs.</li>
+                </ul>
+                <h2>Technologies Utilisées</h2>
+                <ul>
+                    <li>PHP : Langage de programmation utilisé pour la logique côté serveur.</li>
+                    <li>MySQL : Système de gestion de base de données utilisé pour le stockage des données.</li>
+                    <li>HTML/CSS : Langages pour structurer et styliser les pages web.</li>
+                    <li>WinSCP : Logiciel utilisé pour transférer les fichiers entre la machine locale et le serveur
+                        distant.</li>
+                </ul>
+                <hr>
+                <div class="image">
+<div class="pdf-container">
+    <embed src="resources/doc_technic.pdf" type="application/pdf" width="100%" height="600px" />
+</div>
+                </div>
+            </div>
+    </section>
