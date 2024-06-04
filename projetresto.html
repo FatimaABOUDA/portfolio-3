@@ -31,23 +31,7 @@
             /* Pour ajouter un espace entre le PDF et la vidéo */
         }
     
-        @media screen and (max-width: 900px) {
-            .media-container {
-                flex-direction: column;
-                /* Change la direction en colonne */
-            }
-    
-            .pdf-container,
-            .video {
-                flex-basis: 100%;
-                /* Assurez-vous que chaque élément occupe toute la largeur */
-                margin-right: 0;
-                /* Supprimez la marge entre les éléments */
-                margin-bottom: 20px;
-                /* Ajoutez une marge en bas pour l'espace entre les éléments */
-            }
-        }
-    
+      
     
         video {
             max-width: 100%;
@@ -75,6 +59,27 @@
             margin: 20px 0;
             /* Adjust margin as needed */
             width: 100%;
+        }
+
+          @media screen and (max-width: 900px) {
+            .media-container {
+                flex-direction: column;
+                /* Change la direction en colonne */
+            }
+    
+            .pdf-container,
+            .video {
+                flex-basis: 100%;
+                /* Assurez-vous que chaque élément occupe toute la largeur */
+                margin-right: 0;
+                /* Supprimez la marge entre les éléments */
+                margin-bottom: 20px;
+                /* Ajoutez une marge en bas pour l'espace entre les éléments */
+            }
+            .pdf-container {
+    max-width: 100%;
+    overflow-x: auto; /* Permet le défilement horizontal si le PDF est plus large que l'écran */
+}
         }
   </style>
 </head>
