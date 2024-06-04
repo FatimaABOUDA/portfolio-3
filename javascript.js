@@ -1,18 +1,26 @@
+document.addEventListener("DOMContentLoaded", function () {
+    var stageItem = document.getElementById("stage");
+    var sousMenu = stageItem.querySelector(".sous-menu");
 
-document.querySelector('#contact-form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    e.target.elements.name.value = '';
-    e.target.elements.email.value = '';
-    e.target.elements.message.value = '';
-});
+    stageItem.addEventListener("mouseenter", function () {
+        sousMenu.style.display = "block";
+    });
 
-
-    $(function () {
-    $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 10) {
-            $('.et-hero-tabs-container').addClass('active');
-        } else {
-            $('.et-hero-tabs-container').removeClass('active');
-        }
+    stageItem.addEventListener("mouseleave", function () {
+        sousMenu.style.display = "none";
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const stageToggle = document.querySelector(".stage-toggle");
+    const submenu = stageToggle.querySelector(".submenu");
+
+    // Ajouter un gestionnaire d'événements pour le clic sur l'élément "Stage"
+    stageToggle.addEventListener("click", function (event) {
+        // Empêcher le lien de se comporter par défaut
+        event.preventDefault();
+        // Basculer la visibilité des sous-menus
+        submenu.classList.toggle("active");
+    });
+});
+
